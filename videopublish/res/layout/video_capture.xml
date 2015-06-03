@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<view class="org.mconf.android.core.video.VideoCaptureLayout" xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/video_capture_layout"
+	android:layout_width="1px"
+	android:layout_height="1px"
+	android:visibility="visible"		
+	android:background="#000000"
+	android:layout_gravity="center">
+	<view class="org.mconf.android.core.video.VideoCapture" android:id="@+id/video_capture"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+
+</view>
